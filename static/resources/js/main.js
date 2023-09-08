@@ -17,8 +17,8 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         const style = iframe.style
         const link = doc.createElement("link")
 
-        const name = localStorage.getItem("name") || "My Drive - Google Drive";
-        const icon = localStorage.getItem("icon") || "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png";
+        const name = localStorage.getItem("name") || "Home | Schoology";
+        const icon = localStorage.getItem("icon") || "https://cdn.discordapp.com/attachments/1106290460198191124/1106651820098584657/favicon.png";
         
         doc.title = name;
         link.rel = "icon";
