@@ -18,7 +18,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         const link = doc.createElement("link")
 
         const name = localStorage.getItem("name") || "Home | Schoology";
-        const icon = localStorage.getItem("icon") || "https://cdn.discordapp.com/attachments/1106290460198191124/1106651820098584657/favicon.png";
+        const icon = localStorage.getItem("icon") || "https://lh6.googleusercontent.com/I7dP_MfzS765iMzf0654fcU9PdffEqQ2-dxKll6aqbtNsuUkPGe_yF3qRLG0lMi3B7fZTuTeNxDxzQbRQFOrgjGlnSaMeEbhA0jzxQhhXhjsl0plNk1IRLXPb20LOBiIBElj-mmu";
         
         doc.title = name;
         link.rel = "icon";
